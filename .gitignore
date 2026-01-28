@@ -1,0 +1,70 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===============================
+# Large artifacts (DO NOT COMMIT)
+# ===============================
+
+# Trained models (huge)
+models/
+!models/README.md
+
+# Intermediate merged checkpoints
+models/merged/
+
+# Training outputs & eval results
+outputs/
+!outputs/README.md
+
+# Processed datasets / caches
+data/processed/
+data/cache/
+data/tmp/
+
+# HuggingFace / torch caches
+.cache/
+torch_cache/
+hf_cache/
+
+# ===============================
+# Logs & checkpoints
+# ===============================
+*.log
+wandb/
+runs/
+checkpoints/
+tensorboard/
+
+# ===============================
+# Notebooks & local experiments
+# ===============================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===============================
+# Misc
+# ===============================
+*.tmp
+*.bak
+*.old
